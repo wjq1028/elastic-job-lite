@@ -3,7 +3,7 @@
     <parent>
         <groupId>io.elasticjob</groupId>
         <artifactId>elastic-job-lite</artifactId>
-        <version>3.0.0.M1-SNAPSHOT</version>
+        <version>1.0.0-R</version>
     </parent>
     <artifactId>elastic-job-lite-core</artifactId>
     <name>${project.artifactId}</name>
@@ -30,18 +30,25 @@
             <artifactId>commons-exec</artifactId>
             <version>${commons-exec.version}</version>
         </dependency>
-        <dependency>
-            <groupId>org.apache.curator</groupId>
-            <artifactId>curator-framework</artifactId>
-            <version>${curator.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.curator</groupId>
-            <artifactId>curator-client</artifactId>
-        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>org.apache.curator</groupId>-->
+            <!--<artifactId>curator-framework</artifactId>-->
+            <!--<version>${curator.version}</version>-->
+        <!--</dependency>-->
+        <!--<dependency>-->
+            <!--<groupId>org.apache.curator</groupId>-->
+            <!--<artifactId>curator-client</artifactId>-->
+            <!--<version>${curator.version}</version>-->
+        <!--</dependency>-->
+        <!--<dependency>-->
+            <!--<groupId>org.apache.curator</groupId>-->
+            <!--<artifactId>curator-recipes</artifactId>-->
+            <!--<version>${curator.version}</version>-->
+        <!--</dependency>-->
         <dependency>
             <groupId>org.apache.curator</groupId>
             <artifactId>curator-recipes</artifactId>
+            <version>${curator.version}</version>
         </dependency>
         <dependency>
             <groupId>commons-dbcp</groupId>
@@ -55,6 +62,7 @@
         <dependency>
             <groupId>org.apache.curator</groupId>
             <artifactId>curator-test</artifactId>
+            <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>junit</groupId>
