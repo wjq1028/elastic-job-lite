@@ -1,3 +1,13 @@
+# Elastic-Job-R
+功能列表：
+* 添加了Elastic-Job对SpringBoot的支持，部分代码来源https://github.com/yinjihuan/elastic-job-spring-boot-starter
+
+规划功能：
+* 将console功能变为可内置进SpringBoot应用。
+
+
+
+
 # Elastic-Job - distributed scheduled job solution
 
 [![Build Status](https://secure.travis-ci.org/elasticjob/elastic-job-lite.png?branch=master)](https://travis-ci.org/elasticjob/elastic-job-lite)
